@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.coeus.poclasses
+OpenIDE-Module-Layer: org/coeus/poclasses/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/coeus/poclasses/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

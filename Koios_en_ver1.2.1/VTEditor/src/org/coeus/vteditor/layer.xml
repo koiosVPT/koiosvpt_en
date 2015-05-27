@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="System">
+            <file name="org-coeus-vteditor-actions-OpenVTEditor.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.coeus.vteditor.Bundle"/>
+                <attr name="delegate" newvalue="org.coeus.vteditor.actions.OpenVTEditor"/>
+                <attr name="displayName" bundlevalue="org.coeus.vteditor.actions.Bundle#CTL_OpenVTEditor"/>
+                <attr name="iconBase" stringvalue="org/coeus/vteditor/resources/newFile.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+        <file name="org-coeus-vteditor-actions-myShowLineNumbersAction.instance"/>
+        <file name="org-coeus-vteditor-actions-myStartUpInfoAction.instance"/>
+        </folder>
+       <folder name="File">
+            <file name="org-coeus-vteditor-actions-mySaveAction.instance"/>
+            <file name="org-coeus-vteditor-actions-mySaveAsAction.instance"/>
+            <file name="org-coeus-vteditor-actions-mySaveAllAction.instance"/>
+            <file name="org-coeus-vteditor-actions-myCreateJavaProgramAction.instance"/>
+            <!--file name="org-coeus-vteditor-actions-myPrintAction.instance"/-->
+            <file name="org-coeus-vteditor-actions-myExportImageAction.instance"/>
+            <file name="org-coeus-vteditor-actions-myLoadAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.coeus.vteditor.Bundle"/>
+                <attr name="delegate" newvalue="org.coeus.vteditor.actions.myLoadAction"/>
+                <attr name="displayName" bundlevalue="org.coeus.vteditor.actions.Bundle#CTL_myLoadAction"/>
+                <attr name="iconBase" stringvalue="org/coeus/vteditor/resources/openProject.png"/>
+                <attr name="instanceCreate" methodvalue="org.openide.awt.Actions.alwaysEnabled"/>
+                <attr name="noIconInMenu" stringvalue="false"/>
+            </file>
+        </folder>
+
+     <folder name="Edit">
+            <file name="org-coeus-vteditor-actions-myUndoAction.instance"/>
+            <file name="org-coeus-vteditor-actions-myRedoAction.instance"/>
+            <file name="org-coeus-vteditor-actions-mySearchAction.instance"/>
+        </folder>
+      <folder name="Program">
+            <file name="org-coeus-vteditor-actions-myCheckAction.instance"/>
+            <file name="org-coeus-vteditor-actions-myCompileAction.instance"/>
+            <file name="org-coeus-vteditor-actions-myRunAction.instance"/>
+            <file name="org-coeus-vteditor-actions-myDebugAction.instance"/>
+        </folder>
+       
+        <folder name="Window">
+            <file name="org-coeus-vteditor-mypropertieswindow-myPropertiesAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.coeus.vteditor.Bundle"/>
+                <attr name="component" methodvalue="org.coeus.vteditor.mypropertieswindow.myPropertiesTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.coeus.vteditor.mypropertieswindow.Bundle#CTL_myPropertiesAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+        </folder>
+    </folder>
+    
+    <folder name="Menu">
+        <folder name="File">
+            <file name="org-coeus-vteditor-actions-OpenVTEditor.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/org-coeus-vteditor-actions-OpenVTEditor.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-myLoadAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-myLoadAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-mySaveAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-mySaveAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-mySaveAsAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-mySaveAsAction.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-mySaveAllAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-mySaveAllAction.instance"/>
+                <attr name="position" intvalue="450"/>
+            </file>
+
+            <file name="SeparatorF1.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+
+
+            <!--file name="org-coeus-vteditor-actions-myPrintAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-myPrintAction.instance"/>
+                <attr name="position" intvalue="700"/>
+            </file-->
+        </folder>
+
+        <folder name="Edit">
+
+            <file name="org-coeus-vteditor-actions-myUndoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/org-coeus-vteditor-actions-myUndoAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-myRedoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/org-coeus-vteditor-actions-myRedoAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+
+            
+                     
+         </folder>
+
+        <folder name="View">
+        <!--attr name="position" intvalue="250"/-->
+            <file name="myPropertiesAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-coeus-vteditor-mypropertieswindow-myPropertiesAction.instance"/>
+                <attr name="position" intvalue="150"/>
+          </file>
+
+        <file name="org-coeus-vteditor-actions-myShowLineNumbersAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/org-coeus-vteditor-actions-myShowLineNumbersAction.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+
+             <!--file name="SeparatorV1.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="300"/>
+            </file-->
+
+        </folder>
+
+
+        <folder name="Program">
+            <file name="org-coeus-vteditor-actions-myCheckAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Program/org-coeus-vteditor-actions-myCheckAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+
+            <file name="SeparatorP1.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+
+           <file name="org-coeus-vteditor-actions-myCompileAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Program/org-coeus-vteditor-actions-myCompileAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-myRunAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Program/org-coeus-vteditor-actions-myRunAction.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+            
+       </folder>
+        <folder name="Options">
+
+            <file name="SeparatorO1.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+
+            <file name="org-coeus-vteditor-actions-myCreateJavaProgram.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-myCreateJavaProgramAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-myExportImageAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-myExportImageAction.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+
+           <file name="SeparatorO2.instance">
+                <attr name="instanceClass" stringvalue="javax.swing.JSeparator"/>
+                <attr name="position" intvalue="500"/>
+            </file>
+
+            <file name="org-coeus-vteditor-actions- myStartUpInfoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/org-coeus-vteditor-actions-myStartUpInfoAction.instance"/>
+                <attr name="position" intvalue="600"/>
+            </file>
+       </folder>
+       
+    </folder>
+    <folder name="Toolbars">
+
+        <folder name="File">
+            <attr name="position" intvalue="100"/>
+            <file name="org-coeus-vteditor-OpenVTEditor.shadow">
+                <attr name="originalFile" stringvalue="Actions/System/org-coeus-vteditor-actions-OpenVTEditor.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-myLoadAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-myLoadAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-mySaveAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-mySaveAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+            <file name="org-coeus-vteditor-actions-mySaveAllAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/File/org-coeus-vteditor-actions-mySaveAllAction.instance"/>
+                <attr name="position" intvalue="400"/>
+            </file>
+         </folder>
+        <folder name="Undo\Redo">
+           <attr name="position" intvalue="200"/>
+           <file name="org-coeus-vteditor-actions-myUndoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/org-coeus-vteditor-actions-myUndoAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+             <file name="org-coeus-vteditor-actions-myRedoAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Edit/org-coeus-vteditor-actions-myRedoAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+       </folder>
+        <folder name="Program">
+           <attr name="position" intvalue="350"/>
+           <file name="org-coeus-vteditor-actions-myCheckAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Program/org-coeus-vteditor-actions-myCheckAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+             <file name="org-coeus-vteditor-actions-myCompileAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Program/org-coeus-vteditor-actions-myCompileAction.instance"/>
+                <attr name="position" intvalue="200"/>
+            </file>
+             <file name="org-coeus-vteditor-actions-myRunAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Program/org-coeus-vteditor-actions-myRunAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+
+       </folder>
+    </folder>
+
+   
+    
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="myPropertiesTopComponent.settings" url="myPropertiesTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="properties">
+                <file name="myPropertiesTopComponent.wstcref" url="myPropertiesTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>
+
+
+ 
