@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.coeus.vteditor
+OpenIDE-Module-Install: org/coeus/vteditor/Installer.class
+OpenIDE-Module-Layer: org/coeus/vteditor/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/coeus/vteditor/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+

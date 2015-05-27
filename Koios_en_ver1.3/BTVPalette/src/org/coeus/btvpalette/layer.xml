@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE filesystem PUBLIC "-//NetBeans//DTD Filesystem 1.2//EN" "http://www.netbeans.org/dtds/filesystem-1_2.dtd">
+<filesystem>
+    <folder name="Actions">
+        <folder name="Window">
+            <file name="org-coeus-btvpalette-BTVPalAction.instance">
+                <attr name="SystemFileSystem.localizingBundle" stringvalue="org.coeus.btvpalette.Bundle"/>
+                <attr name="component" methodvalue="org.coeus.btvpalette.BTVPalTopComponent.findInstance"/>
+                <attr name="displayName" bundlevalue="org.coeus.btvpalette.Bundle#CTL_BTVPalAction"/>
+                <attr name="instanceCreate" methodvalue="org.openide.windows.TopComponent.openAction"/>
+            </file>
+            <file name="org-coeus-btvpalette-myAdvanceAction.instance"/>
+        </folder>
+    </folder>
+    <folder name="Menu">
+        <folder name="View">
+            <file name="BTVPalAction.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-coeus-btvpalette-BTVPalAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+        </folder>
+   <folder name="Options">
+           <file name="org-coeus-btvpalette-myAdvanceProgram.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-coeus-btvpalette-myAdvanceAction.instance"/>
+                <attr name="position" intvalue="100"/>
+            </file>
+       </folder>
+    </folder>
+   <folder name="Toolbars">
+        <folder name="Advanced">
+           <attr name="position" intvalue="400"/>
+           <file name="org-coeus-btvpalette-myAdvanceProgram.shadow">
+                <attr name="originalFile" stringvalue="Actions/Window/org-coeus-btvpalette-myAdvanceAction.instance"/>
+                <attr name="position" intvalue="300"/>
+            </file>
+       </folder>
+      
+    </folder>
+
+
+    <folder name="Windows2">
+        <folder name="Components">
+            <file name="BTVPalTopComponent.settings" url="BTVPalTopComponentSettings.xml"/>
+        </folder>
+        <folder name="Modes">
+            <folder name="commonpalette">
+                <file name="BTVPalTopComponent.wstcref" url="BTVPalTopComponentWstcref.xml"/>
+            </folder>
+        </folder>
+    </folder>
+</filesystem>

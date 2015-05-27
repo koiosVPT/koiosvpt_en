@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+OpenIDE-Module: org.coeus.btvpalette
+OpenIDE-Module-Layer: org/coeus/btvpalette/layer.xml
+OpenIDE-Module-Localizing-Bundle: org/coeus/btvpalette/Bundle.properties
+OpenIDE-Module-Specification-Version: 1.0
+
